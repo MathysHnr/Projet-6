@@ -180,6 +180,8 @@ const displayWorks = (works) => {
 	  modalWorks.style.display = "block";
 	});
   }
+
+  
 // Gestion de la fermeture de la modale en cliquant à l'extérieur
 	// Le modal de travail ne peut pas se fermer si vous cliquez à l'intérieur de son contenu
 	document.querySelectorAll('#modal-works').forEach(modalWorks => {
