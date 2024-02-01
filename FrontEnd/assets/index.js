@@ -74,7 +74,7 @@ const displayWorks = (works) => {
 	} else {
 	  document.querySelector("body").classList.remove("connected");
 	}
-	
+
 	toggleFilters();
   
 	// Gestionnaire d'événement pour la déconnexion
@@ -133,7 +133,6 @@ const displayWorks = (works) => {
 	  // Gestion de la suppression
 	  trashIcon.addEventListener("click", async function (event) {
 		event.preventDefault();
-		
 		// Fetch pour supprimer le travail dans la modal et dans la galerie du portfolio de la page
 		await fetch(`http://localhost:5678/api/works/${work.id}`, {
 			method: "DELETE",
