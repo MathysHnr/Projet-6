@@ -74,7 +74,6 @@ const displayWorks = (works) => {
 	} else {
 	  document.querySelector("body").classList.remove("connected");
 	}
-  
 	toggleFilters();
   
 	// Gestionnaire d'événement pour la déconnexion
