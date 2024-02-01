@@ -232,7 +232,7 @@ const displayWorks = (works) => {
 		modalWorks.style.display = "none";
 	});
 	
-	// Fermeture de la deuxième fenêtre modale avec le bouton "x"
+	// Fermeture de la deuxième fenêtre modale avec le bouton x
 	document.getElementById('button-to-close-second-window').addEventListener('click', function(event) {
 		event.preventDefault();
 		let modal = document.getElementById('modal');
