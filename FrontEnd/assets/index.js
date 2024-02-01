@@ -134,7 +134,7 @@ const displayWorks = (works) => {
 	  trashIcon.addEventListener("click", async function (event) {
 		event.preventDefault();
 
-		
+
 		// Fetch pour supprimer le travail dans la modal et dans la galerie du portfolio de la page
 		await fetch(`http://localhost:5678/api/works/${work.id}`, {
 			method: "DELETE",
@@ -180,7 +180,6 @@ const displayWorks = (works) => {
 	  modalWorks.style.display = "block";
 	});
   }
-  
 // Gestion de la fermeture de la modale en cliquant à l'extérieur
 	// Le modal de travail ne peut pas se fermer si vous cliquez à l'intérieur de son contenu
 	document.querySelectorAll('#modal-works').forEach(modalWorks => {
