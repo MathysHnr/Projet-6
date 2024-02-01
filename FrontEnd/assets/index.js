@@ -444,7 +444,6 @@ const displayWorks = (works) => {
 	};
 	
 
-
 const init = async () => {
   console.log("init");
   const works = await getWorks();
