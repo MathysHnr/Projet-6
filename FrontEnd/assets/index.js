@@ -294,6 +294,8 @@ const displayWorks = (works) => {
 		modalEditPhoto.style.padding = "30px 0 19px 0";
 		document.getElementById('submit-new-work').style.backgroundColor = "#A7A7A7";
 	});
+
+	
 	// Fetch pour ajouter des options de catégorie dans la modification modale
 	fetch("http://localhost:5678/api/categories")
 		.then(function(response) {
