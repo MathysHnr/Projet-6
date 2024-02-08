@@ -67,6 +67,6 @@ function showAlertHttpError(statusCode) {
     if (statusCode === 401) {
         errorMessageDiv.textContent = "Les identifiants ne sont pas corrects.";
     } else {
-        errorMessageDiv.textContent = "Authentification invalide. Vérifiez si les données saisies sont correctes.";
+        errorMessageDiv.textContent = `Erreur HTTP: Statut ${statusCode}`;
     }
 }
