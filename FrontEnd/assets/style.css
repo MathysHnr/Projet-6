@@ -709,3 +709,45 @@ hr {
 	justify-content: center;
 	display: flex;
 }
+
+.hidden {
+	display: none;
+  }
+  
+  .show-block {
+	display: block;
+  }
+  
+  .preview-image {
+	height: 169px;
+	width: 100%;
+    image-rendering: pixelated;
+  }
+  
+  #modal-edit-work-form .no-padding {
+	padding: 0;
+  }
+  
+  .button-inactive {
+	background-color: #A7A7A7;
+  }
+  
+ .button-active {
+	background-color: #1D6154;
+  }
+
+  .show-flex {
+	display: flex;
+  }
+
+  .padding-admin {
+	padding-bottom: 100px;
+  }
+
+  .modal-edit-padding {
+	padding: 30px 0 19px 0 ;
+  }
+
+  .modal-edit-padding-2 {
+	padding: 30px 0 199px 0;
+  }
